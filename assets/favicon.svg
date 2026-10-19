@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Blue terminal pet icon">
+  <defs>
+    <linearGradient id="blue" x1="8" y1="6" x2="55" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a9e6ff"/>
+      <stop offset=".55" stop-color="#609fca"/>
+      <stop offset="1" stop-color="#356a9d"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#blue)" d="M10 15c0-6 5-10 11-10 4 0 7 2 9 5 2-3 5-5 9-5 6 0 11 4 11 10 5 1 9 5 9 11 0 5-3 9-7 11 2 2 3 5 3 8 0 8-7 14-16 14H23C14 59 8 53 8 45c0-3 1-6 3-8-4-2-7-6-7-11 0-6 2-10 6-11Z"/>
+  <rect x="12" y="19" width="40" height="26" rx="10" fill="#234a77" stroke="#d8f6ff" stroke-width="2"/>
+  <path d="m24 27 7 5-7 5m11 0h6" fill="none" stroke="#d8f6ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle cx="20" cy="49" r="4" fill="#78bce5"/>
+  <circle cx="44" cy="49" r="4" fill="#78bce5"/>
+</svg>
+
