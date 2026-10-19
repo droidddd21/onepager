@@ -37,7 +37,8 @@ h2 { margin: 14px 0 12px; font: 38px/.9 "VT323", monospace; font-weight: 400; co
 .project-icon { display: grid; width: 35px; height: 35px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: #5f9cc2; font-size: 18px; }
 h3 { margin: 22px 0 7px; font: 27px/1 "VT323", monospace; font-weight: 400; }
 .project-card p { min-height: 44px; margin: 0 0 9px; font-size: 13px; line-height: 1.35; }
-.project-card a { color: #39789f; font: 17px "VT323", monospace; }
+.project-card a { display: inline-block; padding: 6px 10px; border: 1px solid #99c8e2; border-radius: 9px; background: rgba(255,255,255,.72); color: #39789f; font: 800 12px/1 Nunito, sans-serif; letter-spacing: .15px; text-decoration: none; transition: background .2s, transform .2s; }
+.project-card a:hover { background: #fff; transform: translateY(-1px); }
 .future { opacity: .75; border-style: dashed; }
 .links { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-top: 27px; padding: 16px 21px; }
 .links h2 { margin: 4px 0 0; }
