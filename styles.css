@@ -37,8 +37,9 @@ h2 { margin: 14px 0 12px; font: 38px/.9 "VT323", monospace; font-weight: 400; co
 .project-icon { display: grid; width: 35px; height: 35px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: #5f9cc2; font-size: 18px; }
 h3 { margin: 22px 0 7px; font: 27px/1 "VT323", monospace; font-weight: 400; }
 .project-card p { min-height: 44px; margin: 0 0 9px; font-size: 13px; line-height: 1.35; }
-.project-card a { display: inline-block; padding: 6px 10px; border: 1px solid #99c8e2; border-radius: 9px; background: rgba(255,255,255,.72); color: #39789f; font: 800 12px/1 Nunito, sans-serif; letter-spacing: .15px; text-decoration: none; transition: background .2s, transform .2s; }
-.project-card a:hover { background: #fff; transform: translateY(-1px); }
+.project-card a { display: inline-block; padding: 9px 14px; border: 2px solid #417da6; border-radius: 11px; background: linear-gradient(180deg, #79bde2, #569dca); box-shadow: 0 3px 0 #397ca8, 0 5px 10px rgba(56,122,164,.2); color: #fff; font: 800 13px/1 Nunito, sans-serif; letter-spacing: .2px; text-decoration: none; text-shadow: 0 1px 0 rgba(31,83,119,.3); transition: transform .15s, box-shadow .15s, filter .15s; }
+.project-card a:hover { filter: brightness(1.06); transform: translateY(-2px); box-shadow: 0 5px 0 #397ca8, 0 8px 14px rgba(56,122,164,.24); }
+.project-card a:active { transform: translateY(2px); box-shadow: 0 1px 0 #397ca8; }
 .future { opacity: .75; border-style: dashed; }
 .links { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-top: 27px; padding: 16px 21px; }
 .links h2 { margin: 4px 0 0; }
