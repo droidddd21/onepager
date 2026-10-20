@@ -43,7 +43,7 @@ h3 { margin: 22px 0 7px; font: 27px/1 "VT323", monospace; font-weight: 400; }
 .future { opacity: .75; border-style: dashed; }
 .links { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-top: 27px; padding: 16px 21px; }
 .links h2 { margin: 4px 0 0; }
-.socials { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
+.socials { display: grid; grid-template-columns: repeat(2, minmax(80px, 1fr)); gap: 7px; }
 .socials a { min-width: 80px; padding: 8px 9px; border-radius: 10px; background: #e3f4ff; color: #376f91; text-align: center; text-decoration: none; font: 18px "VT323", monospace; }
 .socials a span { opacity: .65; }
 footer { grid-column: 1 / -1; padding: 9px; border-top: 2px solid var(--line); background: #d8f1ff; text-align: center; font: 18px "VT323", monospace; }
