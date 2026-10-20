@@ -43,10 +43,10 @@ h3 { margin: 22px 0 7px; font: 27px/1 "VT323", monospace; font-weight: 400; }
 .future { opacity: .75; border-style: dashed; }
 .links { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-top: 27px; padding: 16px 21px; }
 .links h2 { margin: 4px 0 0; }
-.socials { display: grid; grid-template-columns: repeat(2, minmax(80px, 1fr)); gap: 7px; }
-.socials a { min-width: 80px; padding: 8px 9px; border-radius: 10px; background: #e3f4ff; color: #376f91; text-align: center; text-decoration: none; font: 18px "VT323", monospace; }
+.socials { flex: 1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; margin-left: 42px; }
+.socials a { min-width: 0; padding: 8px 9px; border-radius: 10px; background: #e3f4ff; color: #376f91; text-align: center; text-decoration: none; font: 18px "VT323", monospace; }
 .socials a span { opacity: .65; }
 footer { grid-column: 1 / -1; padding: 9px; border-top: 2px solid var(--line); background: #d8f1ff; text-align: center; font: 18px "VT323", monospace; }
-@media (max-width: 760px) { .page-shell { width: min(100% - 20px, 600px); grid-template-columns: 1fr; margin: 10px auto; border-radius: 20px; } .sidebar { border-right: 0; border-bottom: 2px solid var(--line); padding: 28px 23px; } .side-orbit { display: none; } .tiny-note { display: none; } .content { padding: 14px; } .hero { min-height: 300px; padding: 22px 15px; } .hero-copy { width: 63%; } .pet { width: 48%; margin-right: -22px; } .projects { grid-template-columns: 1fr; } .links { align-items: flex-start; flex-direction: column; } .socials { width: 100%; } }
+@media (max-width: 760px) { .page-shell { width: min(100% - 20px, 600px); grid-template-columns: 1fr; margin: 10px auto; border-radius: 20px; } .sidebar { border-right: 0; border-bottom: 2px solid var(--line); padding: 28px 23px; } .side-orbit { display: none; } .tiny-note { display: none; } .content { padding: 14px; } .hero { min-height: 300px; padding: 22px 15px; } .hero-copy { width: 63%; } .pet { width: 48%; margin-right: -22px; } .projects { grid-template-columns: 1fr; } .links { align-items: flex-start; flex-direction: column; } .socials { width: 100%; margin-left: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 430px) { .hero { display: block; min-height: 405px; } .hero-copy { width: 100%; } .pet { display: block; width: 70%; margin: 3px auto -25px; } .socials { grid-template-columns: 1fr; } }
 
