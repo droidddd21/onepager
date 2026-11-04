@@ -33,7 +33,7 @@ h2 { margin: 14px 0 12px; font: 38px/.9 "VT323", monospace; font-weight: 400; co
 .welcome p:last-child { margin: 7px 0 0; line-height: 1.42; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
 .section-heading span { font-size: 17px; }
-.projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .project-card { min-height: 190px; padding: 16px; border: 2px solid var(--line); border-radius: 21px 21px 8px 8px; background: linear-gradient(180deg, rgba(225,245,255,.9), rgba(255,255,255,.8)); }
 .project-icon { display: grid; width: 35px; height: 35px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: #5f9cc2; font-size: 18px; }
 h3 { margin: 22px 0 7px; font: 27px/1 "VT323", monospace; font-weight: 400; }
